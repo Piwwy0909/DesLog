@@ -875,7 +875,7 @@ spawn(
             else
                 S = 'No'
             end
-                        Payload = Payload .."[".. S .."]: " ..CurrentFruitName.." | "
+                        Payload = Payload .."[".. S .."]: " ..CurrentFruitName.." |"
                         RequestgetInventory = game:GetService("ReplicatedStorage").Remotes["CommF_"]:InvokeServer("getInventory")
                         for i,x in pairs(RequestgetInventory) do
                              if x["Type"] == "Sword" then
@@ -938,47 +938,47 @@ function GetMasGun(Name)
     end
 end                 if _G.ShowMasAllies then
                         if CDKYed then
-                        Payload = Payload .."CDK: "..GetMasterySword("Cursed Dual Katana").." |"
+                        Payload = Payload .." CDK: "..GetMasterySword("Cursed Dual Katana").." |"
                         end
                         if HsYed then
-                            Payload = Payload .."HS: "..GetMasterySword("Hallow Scythe").." |"
+                            Payload = Payload .." HS: "..GetMasterySword("Hallow Scythe").." |"
                             end
                         if SGYed then
-                            Payload = Payload .."SG: "..GetMasGun("Soul Guitar").." |"
+                            Payload = Payload .." SG: "..GetMasGun("Soul Guitar").." |"
                             end
                         if DDGYed then
-                             Payload = Payload .."DDG: "..GetMasterySword("Dark Dagger").." |"
+                             Payload = Payload .." DDG: "..GetMasterySword("Dark Dagger").." |"
                              end
                         if YMYed then
-                            Payload = Payload .."YM: "..GetMasterySword("Yama").." |"
+                            Payload = Payload .." YM: "..GetMasterySword("Yama").." |"
                             end
                         if TSYed then
-                            Payload = Payload .."TS: "..GetMasterySword("Tushita").." |"
+                            Payload = Payload .." TS: "..GetMasterySword("Tushita").." |"
                             end
                         if TTKYed then
-                            Payload = Payload .."TTK: "..GetMasterySword("True Triple Katana")
+                            Payload = Payload .." TTK: "..GetMasterySword("True Triple Katana")
                             end
                         else
                             if CDKYed then
-                                Payload = Payload .."CDK | "
+                                Payload = Payload .." CDK | "
                                 end
                                 if HsYed then
-                                    Payload = Payload .."HS | "
+                                    Payload = Payload .." HS | "
                                     end
                                 if SGYed then
-                                    Payload = Payload .."SG | "
+                                    Payload = Payload .." SG | "
                                     end
                                 if DDGYed then
-                                     Payload = Payload .."DDG | "
+                                     Payload = Payload .." DDG | "
                                      end
                                 if YMYed then
-                                    Payload = Payload .."YM | "
+                                    Payload = Payload .." YM | "
                                     end
                                 if TSYed then
-                                    Payload = Payload .."TS | "
+                                    Payload = Payload .." TS | "
                                     end
                                 if TTKYed then
-                                    Payload = Payload .."TTK "
+                                    Payload = Payload .." TTK "
                                     end
                         end
             r =
