@@ -260,9 +260,7 @@ Nexus:OnButtonClick(
         }
 
         SharkmanKarate = game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
-        if SharkmanKarate == 0 then
-            HasSharkmanKarate = false
-        else
+        if SharkmanKarate == 1 then
             HasSharkmanKarate = true
         end
         wait(0.2)
@@ -618,9 +616,7 @@ spawn(
             }
 
             SharkmanKarate = game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
-            if SharkmanKarate == 0 then
-                HasSharkmanKarate = false
-            else
+            if SharkmanKarate == 1 then
                 HasSharkmanKarate = true
             end
             wait(0.2)
@@ -798,9 +794,7 @@ spawn(
             }
 
             SharkmanKarate = game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
-            if SharkmanKarate == 0 then
-                HasSharkmanKarate = false
-            else
+            if SharkmanKarate == 1 then
                 HasSharkmanKarate = true
             end
             wait(0.2)
